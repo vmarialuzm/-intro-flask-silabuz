@@ -8,7 +8,7 @@ class Salon(db.Model):
     horaEntrada = db.Column(db.Time)
     #alumnos = db.relationship('Alumno', backref='salon', lazy="dynamic")
 
-    def __init__(self,aula,horaEntrada,alumnos):
+    def __init__(self,aula,horaEntrada):
         self.aula=aula
         self.horaEntrada=horaEntrada
         #self.alumnos=alumnos

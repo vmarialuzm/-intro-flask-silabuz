@@ -4,3 +4,4 @@ flask-bootstrap
 python-dotenv
 flask-sqlalchemy
 mysqlclient
+flask-bcrypt

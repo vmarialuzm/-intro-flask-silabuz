@@ -1,7 +1,7 @@
 from flask import Flask
 from .config import Config
 from flask_bootstrap import Bootstrap
-from flask_sqlalchemy import SQLAlchemy
+#from flask_sqlalchemy import SQLAlchemy
 
 #Instancia a flask, carga la configuración del proyecto
 def create_app():
@@ -9,5 +9,5 @@ def create_app():
     Bootstrap(app)
     app.config.from_object(Config)
 
-    SQLAlchemy(app)
+    #SQLAlchemy(app)
     return app
